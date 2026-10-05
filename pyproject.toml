@@ -1,0 +1,19 @@
+[project]
+name = "my-first-blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MercedesW", email = "mercedesw13@protonmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1.1",
+]
+
+[project.scripts]
+my-first-blog = "my_first_blog:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
