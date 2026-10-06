@@ -1,3 +1,7 @@
+# Objetivo
+
+Voy a usar este blog para hablar sobre amigurumis y matemáticas.
+
 # Instalación
 
 ```
@@ -9,6 +13,6 @@ uv run python manage.py runserver
 
 # Tareas
 
-- Definir qué es y para qué lo necesito
 - Definir el alcance
 - Definir todas las características que va a tener
+- Refinir que tecnologías voy a usar, sólo Django?
